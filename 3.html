@@ -1,0 +1,36 @@
+<html>
+
+<head>
+
+    <title>ㅇㅇ</title>
+<style>
+</style>
+
+</head>
+
+<body>
+
+        <img id="img1">
+
+        <script>
+
+            setInterval(timer,500);
+            let state=1;
+            function timer()
+            {
+                switch(state)
+                {
+                    case 1:
+                        document.getElementById('img1').src="1.png"
+                        state=2;
+                    break;
+                    case 2:
+                        document.getElementById('img1').src="2.png"
+                        state=1;
+                    break;
+                }
+            }    
+        </script>
+</body>
+
+</html>
